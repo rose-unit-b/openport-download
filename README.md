@@ -43,6 +43,11 @@ The app has no paid code-signing certificate, so the browser and Windows warn th
 4. Click **Yes** when Windows asks to allow changes, then **Next**, then **Finish**.
    The app starts, and it also has a desktop shortcut.
 
+> **"Smart App Control blocked an app that may be unsafe"?** Windows 11 blocks unsigned apps, and this
+> message has no "Run anyway". Open **Settings → Privacy & security → Windows Security →
+> App & browser control → Smart App Control settings**, choose **Off**, then run the installer (or the app) again.
+> On some Windows versions it can't be turned back on without resetting Windows.
+
 If your computer is managed by an organization that blocks unknown programs entirely, ask its IT
 administrator to allow the file, or use another computer.
 
